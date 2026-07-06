@@ -1,2 +1,22 @@
 # -dictionry
-create an empty dictionry. allow 4 friends to enter their favorite language as value and use key as their names. assume thet the names are uniqe.
+#create an empty dictionry. allow 4 friends to enter their favorite language as value and use key as their names. assume thet the names are uniqe.
+
+d = {}
+
+name =input("enter friends name:  ")
+lang =input("enter language name: ")
+d.update({name : lang})
+
+name =input("enter friends name: ")
+lang =input("enter language name: ")
+d.update({name : lang})
+
+name =input("enter friends name: ")
+lang =input("enter language name: ")
+d.update({name : lang})
+
+name =input("enter friends name: ")
+lang =input("enter language name: ")
+d.update({name : lang})
+
+print(d)
